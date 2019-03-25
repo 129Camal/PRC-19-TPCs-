@@ -1,0 +1,346 @@
+@prefix : <http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8> .
+
+<http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#possuiAtração
+:possuiAtração rdf:type owl:ObjectProperty ;
+               rdfs:domain :PasseioTuristico ;
+               rdfs:range :Atividade ,
+                          :Evento ,
+                          :Instituição .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#possuiPasseioTuristico
+:possuiPasseioTuristico rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Turista ;
+                        rdfs:range :PasseioTuristico .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#tem
+:tem rdf:type owl:ObjectProperty ;
+     rdfs:domain :Cidade ;
+     rdfs:range :AtraçõesTuristicas ,
+                :InfraEstrutura .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#temAtração
+:temAtração rdf:type owl:ObjectProperty ;
+            rdfs:domain :AtraçõesTuristicas ;
+            rdfs:range :Atividade ,
+                       :Evento ,
+                       :Instituição .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#temEmpresa
+:temEmpresa rdf:type owl:ObjectProperty ;
+            rdfs:domain :InfraEstrutura ;
+            rdfs:range :Hotel ,
+                       :Restaurante ,
+                       :Transporte .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#temTurista
+:temTurista rdf:type owl:ObjectProperty ;
+            rdfs:domain :Cidade ;
+            rdfs:range :Turista .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#contacto
+:contacto rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Hotel ,
+                      :Restaurante ,
+                      :Transporte ,
+                      :Turista .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#data
+:data rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Atividade ,
+                  :Evento .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#horasAbertura
+:horasAbertura rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Atividade ,
+                           :Evento ,
+                           :Instituição .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#local
+:local rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Atividade ,
+                   :Evento ,
+                   :Hotel ,
+                   :Instituição ,
+                   :Restaurante .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#maisInformação
+:maisInformação rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Atividade ,
+                            :Evento ,
+                            :Instituição .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#morada
+:morada rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Turista .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#nome
+:nome rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Atividade ,
+                  :Evento ,
+                  :Hotel ,
+                  :Instituição ,
+                  :Restaurante ,
+                  :Transporte ,
+                  :Turista .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#nomeCidade
+:nomeCidade rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Cidade .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#preço
+:preço rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Atividade ,
+                   :Evento ,
+                   :Instituição .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#website
+:website rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Atividade ,
+                     :Evento ,
+                     :Hotel ,
+                     :Instituição ,
+                     :Restaurante ,
+                     :Transporte .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atividade
+:Atividade rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#AtraçõesTuristicas
+:AtraçõesTuristicas rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Cidade
+:Cidade rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Evento
+:Evento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Hotel
+:Hotel rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#InfraEstrutura
+:InfraEstrutura rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Instituição
+:Instituição rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#PasseioTuristico
+:PasseioTuristico rdf:type owl:Class ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty :possuiAtração ;
+                                    owl:minQualifiedCardinality "3"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :PasseioTuristico
+                                  ] .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Restaurante
+:Restaurante rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Transporte
+:Transporte rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Turista
+:Turista rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atração1
+:Atração1 rdf:type owl:NamedIndividual ,
+                   :Instituição ;
+          :local "Monte do Bom Jesus" ;
+          :nome "Mosteiro Do Bom Jesus" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atração2
+:Atração2 rdf:type owl:NamedIndividual ,
+                   :Instituição ;
+          :horasAbertura "12:00-24:00" ;
+          :local "Jardim de Santa Barbara" ;
+          :nome "Sé de Braga" ;
+          :preço "21" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atração3
+:Atração3 rdf:type owl:NamedIndividual ,
+                   :Evento ;
+          :data "12/4 - 19/4" ;
+          :local "Centro da Cidade" ;
+          :nome "Semana Santa" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atração4
+:Atração4 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atração5
+:Atração5 rdf:type owl:NamedIndividual ,
+                   :Evento ;
+          :data "12/4 - 19/4" ;
+          :local "Centro da Cidade" ;
+          :nome "Braga Romana" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atração6
+:Atração6 rdf:type owl:NamedIndividual ,
+                   :Atividade ;
+          :data "21/01/2019" ;
+          :local "Falperra" ;
+          :nome "Corridas na Falperra" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atração7
+:Atração7 rdf:type owl:NamedIndividual ,
+                   :Atividade ;
+          :data "27/08/2019" ;
+          :local "Braga" ;
+          :nome "Volta a Portugal em bicicleta" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Atrações
+:Atrações rdf:type owl:NamedIndividual ,
+                   :AtraçõesTuristicas ;
+          :temAtração :Atração1 ,
+                      :Atração2 ,
+                      :Atração3 ,
+                      :Atração4 ,
+                      :Atração5 ,
+                      :Atração6 ,
+                      :Atração7 .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Cidade1
+:Cidade1 rdf:type owl:NamedIndividual ,
+                  :Cidade ;
+         :tem :Atrações ,
+              :InfraEstrutura ;
+         :nomeCidade "Bracara Augusta" ,
+                     "Braga" ,
+                     "Cidade Romana" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Empresa1
+:Empresa1 rdf:type owl:NamedIndividual ,
+                   :Restaurante ;
+          :horasAbertura "12:00-15:00" ;
+          :local "Rua de Barros" ;
+          :nome "Speedy" ;
+          :website "speedy.com" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Empresa2
+:Empresa2 rdf:type owl:NamedIndividual ,
+                   :Restaurante ;
+          :horasAbertura "12:00-15:00" ;
+          :local "Rua São Victor" ;
+          :nome "Tasquinha" ;
+          :website "tasquinha.com" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Empresa3
+:Empresa3 rdf:type owl:NamedIndividual ,
+                   :Hotel ;
+          :horasAbertura "24 sobre 24" ;
+          :local "Lamçães" ;
+          :nome "Melia" ;
+          :website "melia.com" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Empresa4
+:Empresa4 rdf:type owl:NamedIndividual ,
+                   :Hotel ;
+          :horasAbertura "24 sobre 24" ;
+          :local "Lamçães" ;
+          :nome "Hotel de Lamaçães" ;
+          :website "hotel.com" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Empresa5
+:Empresa5 rdf:type owl:NamedIndividual ,
+                   :Transporte ;
+          :local "Lamaçães" ;
+          :nome "TUB" ;
+          :website "tub.com" .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#InfraEstrutura
+:InfraEstrutura rdf:type owl:NamedIndividual ,
+                         :InfraEstrutura ;
+                :temEmpresa :Empresa1 ,
+                            :Empresa2 ,
+                            :Empresa3 ,
+                            :Empresa4 ,
+                            :Empresa5 .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#PasseioTuristico1
+:PasseioTuristico1 rdf:type owl:NamedIndividual ,
+                            :PasseioTuristico ;
+                   :possuiAtração :Atração1 ,
+                                  :Atração2 ,
+                                  :Atração3 .
+
+
+###  http://www.semanticweb.org/fredericopinto/ontologies/2019/2/untitled-ontology-8#Turista1
+:Turista1 rdf:type owl:NamedIndividual ,
+                   :Turista ;
+          :possuiPasseioTuristico :PasseioTuristico1 ;
+          :contacto 255123123 ;
+          :morada "Sernande Felgueiras" ;
+          :nome "Frederico" .
+
+:Turista2 rdf:type owl:NamedIndividual ,
+                   :Turista ;
+          :possuiPasseioTuristico :PasseioTuristico1 ;
+          :contacto 912345634 ;
+          :morada "Braga Felgueiras" ;
+          :nome "Pinto" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

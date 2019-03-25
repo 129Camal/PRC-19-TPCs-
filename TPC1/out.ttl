@@ -1,0 +1,1988 @@
+
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#IGI2013
+        :IGI2013 rdf:type owl:NamedIndividual ,
+                                                :inbook ;
+              :year "2013";
+              :address "" ;
+              :title "Innovations in XML Applications and Metadata Management: Advancing Technologies"  .
+        
+        
+            :IGI2013 :hasEditor :rq .
+        
+            :IGI2013 :hasAuthor :rf .
+        
+            :IGI2013 :hasAuthor :jcr .
+        
+            :IGI2013 :hasEditor :jcr .
+        
+            :IGI2013 :hasEditor :albie .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#archiving2013
+        :archiving2013 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2013";
+              :address "Washington DC, Estados Unidos" ;
+              :title "	Guidelines for legacy repository migration"  .
+        
+        
+            :archiving2013 :hasAuthor :mf .
+        
+            :archiving2013 :hasAuthor :jcr .
+        
+            :archiving2013 :hasAuthor :lf .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#guimaramus2012
+        :guimaramus2012 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2012";
+              :address "Palácio Vila Flor, Guimarães" ;
+              :title "	MuseCode: à procura da linearidade na música tonal"  .
+        
+        
+            :guimaramus2012 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#bad2012
+        :bad2012 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2012";
+              :address "Fundação Calouste Gulbenkian, Lisboa" ;
+              :title "Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE"  .
+        
+        
+            :bad2012 :hasAuthor :jcr .
+        
+            :bad2012 :hasAuthor :mf .
+        
+            :bad2012 :hasAuthor :lf .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#icadl2012
+        :icadl2012 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2012";
+              :address "Taipei, Taiwan" ;
+              :title "Design and architecture of a novel preservation watch system"  .
+        
+        
+            :icadl2012 :hasAuthor :lf .
+        
+            :icadl2012 :hasAuthor :pp .
+        
+            :icadl2012 :hasAuthor :kd .
+        
+            :icadl2012 :hasAuthor :cb .
+        
+            :icadl2012 :hasAuthor :mf .
+        
+            :icadl2012 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#ipres2012
+        :ipres2012 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2012";
+              :address "Toronto, Canada" ;
+              :title "Preservation watch : what to monitor and how"  .
+        
+        
+            :ipres2012 :hasAuthor :cb .
+        
+            :ipres2012 :hasAuthor :kd .
+        
+            :ipres2012 :hasAuthor :pp .
+        
+            :ipres2012 :hasAuthor :lf .
+        
+            :ipres2012 :hasAuthor :mf .
+        
+            :ipres2012 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR11e
+        :FR11e rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2011";
+              :address "Singapore" ;
+              :title "New dimension in relational database preservation: raising the abstraction level"  .
+        
+        
+            :FR11e :hasAuthor :rf .
+        
+            :FR11e :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR11d
+        :FR11d rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2011";
+              :address "Berlin, Germany" ;
+              :title "Relational Databases Conceptual Preservation"  .
+        
+        
+            :FR11d :hasAuthor :rf .
+        
+            :FR11d :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR11c
+        :FR11c rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2011";
+              :address "Lisboa, Portugal" ;
+              :title "Using Ontologies to Abstract Relational Databases Conceptual Model"  .
+        
+        
+            :FR11c :hasAuthor :rf .
+        
+            :FR11c :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR11b
+        :FR11b rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2011";
+              :address "Universidade Lusíada, Vila Nova de Famalicão, Portugal" ;
+              :title "Preservation of Relational Databases"  .
+        
+        
+            :FR11b :hasAuthor :rf .
+        
+            :FR11b :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR11
+        :FR11 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2011";
+              :address "ESEIG -IPP, Vila do Conde - Portugal" ;
+              :title "Using Ontologies in Database Preservation"  .
+        
+        
+            :FR11 :hasAuthor :rf .
+        
+            :FR11 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR10
+        :FR10 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2010";
+              :address "Glasgow, UK" ;
+              :title "Significant Properties in the Preservation of Relational Databases"  .
+        
+        
+            :FR10 :hasAuthor :rf .
+        
+            :FR10 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RQR10
+        :RQR10 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2010";
+              :address "Guimarães, Portugal" ;
+              :title "Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa"  .
+        
+        
+            :RQR10 :hasAuthor :mjc .
+        
+            :RQR10 :hasAuthor :mam .
+        
+            :RQR10 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FFR10
+        :FFR10 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2010";
+              :address "Guimarães, Portugal" ;
+              :title "DigitArq e o novo módulo de interoperabilidade OAI-PMH"  .
+        
+        
+            :FFR10 :hasAuthor :mf .
+        
+            :FFR10 :hasAuthor :lmf .
+        
+            :FFR10 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR09
+        :FR09 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2009";
+              :address "Lisboa - Portugal" ;
+              :title "Relational databases digital preservation"  .
+        
+        
+            :FR09 :hasAuthor :rf .
+        
+            :FR09 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#GARH09
+        :GARH09 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "2009";
+              :address "" ;
+              :title "Topic maps constraint languages : understanding and comparing"  .
+        
+        
+            :GARH09 :hasAuthor :grl .
+        
+            :GARH09 :hasAuthor :rpa .
+        
+            :GARH09 :hasAuthor :jcr .
+        
+            :GARH09 :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRHGT08
+        :LRHGT08 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2008";
+              :address "Lisboa, Portugal" ;
+              :title "A Framework to specify, extract and manage Topic Maps driven by ontologies"  .
+        
+        
+            :LRHGT08 :hasAuthor :grl .
+        
+            :LRHGT08 :hasAuthor :jcr .
+        
+            :LRHGT08 :hasAuthor :prh .
+        
+            :LRHGT08 :hasAuthor :jg .
+        
+            :LRHGT08 :hasAuthor :rct .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#BKRFBR08
+        :BKRFBR08 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2008";
+              :address "Aarhus, Danmark" ;
+              :title "Distributed Preservation Services: Integrating Planning and Actions"  .
+        
+        
+            :BKRFBR08 :hasAuthor :mk .
+        
+            :BKRFBR08 :hasAuthor :ar .
+        
+            :BKRFBR08 :hasAuthor :cb .
+        
+            :BKRFBR08 :hasAuthor :mf .
+        
+            :BKRFBR08 :hasAuthor :aab .
+        
+            :BKRFBR08 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RFFCBC08
+        :RFFCBC08 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2008";
+              :address "London, England" ;
+              :title "RODA and Crib: A Service-Oriented Digital Repository"  .
+        
+        
+            :RFFCBC08 :hasAuthor :jcr .
+        
+            :RFFCBC08 :hasAuthor :mf .
+        
+            :RFFCBC08 :hasAuthor :lf .
+        
+            :RFFCBC08 :hasAuthor :rc .
+        
+            :RFFCBC08 :hasAuthor :fb .
+        
+            :RFFCBC08 :hasAuthor :lc .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLA08
+        :RLA08 rdf:type owl:NamedIndividual ,
+                                                :proceedings ;
+              :year "2008";
+              :address "Departamento de Informática da Universidade de Évora, Évora - Portugal" ;
+              :title "XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"  .
+        
+        
+            :RLA08 :hasEditor :sa .
+        
+            :RLA08 :hasEditor :jcr .
+        
+            :RLA08 :hasEditor :jcl .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LMMVRH08-XATA
+        :LMMVRH08-XATA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2008";
+              :address "Évora - Portugal" ;
+              :title "Generating a Semantic Network for PubMed"  .
+        
+        
+            :LMMVRH08-XATA :hasAuthor :mm .
+        
+            :LMMVRH08-XATA :hasAuthor :hm .
+        
+            :LMMVRH08-XATA :hasAuthor :jv .
+        
+            :LMMVRH08-XATA :hasAuthor :grl .
+        
+            :LMMVRH08-XATA :hasAuthor :jcr .
+        
+            :LMMVRH08-XATA :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FRF-XATA
+        :FRF-XATA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2008";
+              :address "Évora - Portugal" ;
+              :title "Creating a National Federation of Archives using OAI-PMH"  .
+        
+        
+            :FRF-XATA :hasAuthor :lmf .
+        
+            :FRF-XATA :hasAuthor :jcr .
+        
+            :FRF-XATA :hasAuthor :mf .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LGRH07-CLEI
+        :LGRH07-CLEI rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "San José - Costa Rica" ;
+              :title "Using Web Services to put Metamorphosis on the Web"  .
+        
+        
+            :LGRH07-CLEI :hasAuthor :jg .
+        
+            :LGRH07-CLEI :hasAuthor :grl .
+        
+            :LGRH07-CLEI :hasAuthor :jcr .
+        
+            :LGRH07-CLEI :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LATRH07-CLEI
+        :LATRH07-CLEI rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "San José - Costa Rica" ;
+              :title "Implementing TMCL: XTche - a topic map schema and constraint specification language"  .
+        
+        
+            :LATRH07-CLEI :hasAuthor :rct .
+        
+            :LATRH07-CLEI :hasAuthor :grl .
+        
+            :LATRH07-CLEI :hasAuthor :rpa .
+        
+            :LATRH07-CLEI :hasAuthor :jcr .
+        
+            :LATRH07-CLEI :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LARH07-EPIA
+        :LARH07-EPIA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Guimarães - Portugal" ;
+              :title "Topic Maps Constraint Languages: understanding and comparing"  .
+        
+        
+            :LARH07-EPIA :hasAuthor :grl .
+        
+            :LARH07-EPIA :hasAuthor :rpa .
+        
+            :LARH07-EPIA :hasAuthor :jcr .
+        
+            :LARH07-EPIA :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LMMFRH07-TMRA
+        :LMMFRH07-TMRA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Leipzig - Germany" ;
+              :title "Comparing Topic Maps Constraint Specification Languages"  .
+        
+        
+            :LMMFRH07-TMRA :hasAuthor :htm .
+        
+            :LMMFRH07-TMRA :hasAuthor :mom .
+        
+            :LMMFRH07-TMRA :hasAuthor :pgf .
+        
+            :LMMFRH07-TMRA :hasAuthor :grl .
+        
+            :LMMFRH07-TMRA :hasAuthor :jcr .
+        
+            :LMMFRH07-TMRA :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH06-SBSI06
+        :LRH06-SBSI06 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2006";
+              :address "Curitiba, Paraná - Brasil" ;
+              :title "Metamorphosis: An Environment to Achieve Semantic Interoperability with Topic Maps"  .
+        
+        
+            :LRH06-SBSI06 :hasAuthor :grl .
+        
+            :LRH06-SBSI06 :hasAuthor :jcr .
+        
+            :LRH06-SBSI06 :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH07-SEMINFO
+        :LRH07-SEMINFO rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Torres, RS - Brasil" ;
+              :title "Estruturando o conhecimento com a norma ISO 13250 Topic Maps"  .
+        
+        
+            :LRH07-SEMINFO :hasAuthor :grl .
+        
+            :LRH07-SEMINFO :hasAuthor :jcr .
+        
+            :LRH07-SEMINFO :hasAuthor :prh .
+        
+	
+
+        ###  http://prc.di.uminho.pt/2019/pubs#RFFC07-EML
+        :RFFC07-EML rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Montréal - Canada" ;
+              :title "Relational database preservation through XML modelling"  .
+        
+        
+            :RFFC07-EML :hasAuthor :jcr .
+        
+            :RFFC07-EML :hasAuthor :mf .
+        
+            :RFFC07-EML :hasAuthor :lf .
+        
+            :RFFC07-EML :hasAuthor :rc .
+        
+	
+
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH07-EML
+        :RLH07-EML rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Montréal - Canada" ;
+              :title "Topic Maps applied to PubMed"  .
+        
+        
+            :RLH07-EML :hasAuthor :grl .
+        
+            :RLH07-EML :hasAuthor :rpa .
+        
+            :RLH07-EML :hasAuthor :jcr .
+        
+            :RLH07-EML :hasAuthor :prh .
+        
+	
+
+        ###  http://prc.di.uminho.pt/2019/pubs#LPRH07-XATA
+        :LPRH07-XATA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Lisboa - Portugal" ;
+              :title "Navegando na Rede Semântica dos Topic Maps com o Ulisses"  .
+        
+        
+            :LPRH07-XATA :hasAuthor :rpa .
+        
+            :LPRH07-XATA :hasAuthor :grl .
+        
+            :LPRH07-XATA :hasAuthor :jcr .
+        
+            :LPRH07-XATA :hasAuthor :prh .
+        
+	
+
+        ###  http://prc.di.uminho.pt/2019/pubs#LPRH07-TM
+        :LPRH07-TM rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Oslo - Norway" ;
+              :title "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche"  .
+        
+        
+            :LPRH07-TM :hasAuthor :grl .
+        
+            :LPRH07-TM :hasAuthor :rpa .
+        
+            :LPRH07-TM :hasAuthor :jcr .
+        
+            :LPRH07-TM :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FBR07-IJDL
+        :FBR07-IJDL rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "2007";
+              :address "" ;
+              :title "An intelligent decision support system for digital preservation"  .
+        
+        
+            :FBR07-IJDL :hasAuthor :mf .
+        
+            :FBR07-IJDL :hasAuthor :aab .
+        
+            :FBR07-IJDL :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RFCFBC06
+        :RFCFBC06 rdf:type owl:NamedIndividual ,
+                                                :misc ;
+              :year "2006";
+              :address "" ;
+              :title "RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais"  .
+        
+        
+            :RFCFBC06 :hasAuthor :jcr .
+        
+            :RFCFBC06 :hasAuthor :mf .
+        
+            :RFCFBC06 :hasAuthor :rc .
+        
+            :RFCFBC06 :hasAuthor :lf .
+        
+            :RFCFBC06 :hasAuthor :fb .
+        
+            :RFCFBC06 :hasAuthor :lcor .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FCRBCF07
+        :FCRBCF07 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Ponta Delgada, Açores, Portugal" ;
+              :title "RODA : Repositório de Objectos Digitais Autênticos"  .
+        
+        
+            :FCRBCF07 :hasAuthor :mf .
+        
+            :FCRBCF07 :hasAuthor :rc .
+        
+            :FCRBCF07 :hasAuthor :jcr .
+        
+            :FCRBCF07 :hasAuthor :fb .
+        
+            :FCRBCF07 :hasAuthor :lcor .
+        
+            :FCRBCF07 :hasAuthor :lf .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#SFRL07
+        :SFRL07 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Ponta Delgada, Açores, Portugal" ;
+              :title "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo"  .
+        
+        
+            :SFRL07 :hasAuthor :as .
+        
+            :SFRL07 :hasAuthor :lmf .
+        
+            :SFRL07 :hasAuthor :jcr .
+        
+            :SFRL07 :hasAuthor :mjpl .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RFCFBC07
+        :RFCFBC07 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2007";
+              :address "Lisboa, Portugal" ;
+              :title "XML e preservação digital"  .
+        
+        
+            :RFCFBC07 :hasAuthor :rc .
+        
+            :RFCFBC07 :hasAuthor :lf .
+        
+            :RFCFBC07 :hasAuthor :fb .
+        
+            :RFCFBC07 :hasAuthor :lcor .
+        
+            :RFCFBC07 :hasAuthor :jcr .
+        
+            :RFCFBC07 :hasAuthor :mf .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLC07
+        :RLC07 rdf:type owl:NamedIndividual ,
+                                                :proceedings ;
+              :year "2007";
+              :address "Faculdade de Ciências - Universidade de Lisboa, Lisboa - Portugal" ;
+              :title "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"  .
+        
+        
+            :RLC07 :hasEditor :lc .
+        
+            :RLC07 :hasEditor :jcr .
+        
+            :RLC07 :hasEditor :jcl .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FBR07
+        :FBR07 rdf:type owl:NamedIndividual ,
+                                                :misc ;
+              :year "2007";
+              :address "" ;
+              :title "CRiB : preservation services for Digital Repositories"  .
+        
+        
+            :FBR07 :hasAuthor :mf .
+        
+            :FBR07 :hasAuthor :aab .
+        
+            :FBR07 :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLS06
+        :RLS06 rdf:type owl:NamedIndividual ,
+                                                :proceedings ;
+              :year "2006";
+              :address "Instituto Politécnico de Portalegre, Portalegre - Portugal" ;
+              :title "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"  .
+        
+        
+            :RLS06 :hasEditor :jcr .
+        
+            :RLS06 :hasEditor :jcl .
+        
+            :RLS06 :hasEditor :albie .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RFFLS06
+        :RFFLS06 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2006";
+              :address "Seixal, Portugal" ;
+              :title "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos"  .
+        
+        
+            :RFFLS06 :hasAuthor :mjpl .
+        
+            :RFFLS06 :hasAuthor :as .
+        
+            :RFFLS06 :hasAuthor :jcr .
+        
+            :RFFLS06 :hasAuthor :mf .
+        
+            :RFFLS06 :hasAuthor :lmf .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FBR06-Ariadne
+        :FBR06-Ariadne rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "2006";
+              :address "" ;
+              :title "A foundation for automatic digital preservation"  .
+        
+        
+            :FBR06-Ariadne :hasAuthor :mf .
+        
+            :FBR06-Ariadne :hasAuthor :aab .
+        
+            :FBR06-Ariadne :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RH2002
+        :RH2002 rdf:type owl:NamedIndividual ,
+                                                :book ;
+              :year "2002";
+              :address "FCA - Editora de Informática" ;
+              :title "XML e XSL: da teoria à prática"  .
+        
+        
+            :RH2002 :hasAuthor :jcr .
+        
+            :RH2002 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram2000
+        :Ram2000 rdf:type owl:NamedIndividual ,
+                                                :phdthesis ;
+              :year "2000";
+              :address "Universidade do Minho" ;
+              :title "Anotação Estrutural de Documentos e sua Semântica"  .
+        
+        
+            :Ram2000 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RAH1998
+        :RAH1998 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "1998";
+              :address "" ;
+              :title "Algebraic Specification of Documents"  .
+        
+        
+            :RAH1998 :hasAuthor :jj .
+        
+            :RAH1998 :hasAuthor :jcr .
+        
+            :RAH1998 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RS2003
+        :RS2003 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "Universidade do Minho - Guimarães - Portugal" ;
+              :title "Electronic Publishing of ADB editions"  .
+        
+        
+            :RS2003 :hasAuthor :jls .
+        
+            :RS2003 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH2003
+        :RLH2003 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "Universidade do Minho - Guimarães - Portugal" ;
+              :title "Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites"  .
+        
+        
+            :RLH2003 :hasAuthor :grl .
+        
+            :RLH2003 :hasAuthor :jcr .
+        
+            :RLH2003 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RARH98
+        :RARH98 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "1999";
+              :address "" ;
+              :title "SGML Documents: Where does quality go?"  .
+        
+        
+            :RARH98 :hasAuthor :jgr .
+        
+            :RARH98 :hasAuthor :jcr .
+        
+            :RARH98 :hasAuthor :jj .
+        
+            :RARH98 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RH98
+        :RH98 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "1998";
+              :address "" ;
+              :title "Qualidade na Publicação Electrónica: como controlá-la?"  .
+        
+        
+            :RH98 :hasAuthor :jcr .
+        
+            :RH98 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram01
+        :Ram01 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2001";
+              :address "Berlin - Germany" ;
+              :title "Constraining Content: specification and processing"  .
+        
+        
+            :Ram01 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram99
+        :Ram99 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1999";
+              :address "London - England" ;
+              :title "Recovering Old Paper Historical Documents Through SGML/XML Modelling"  .
+        
+        
+            :Ram99 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RH99
+        :RH99 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1999";
+              :address "Granada - Espanha" ;
+              :title "XML::DT - a Perl Down Translation Module"  .
+        
+        
+            :RH99 :hasAuthor :jcr .
+        
+            :RH99 :hasAuthor :jj .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH98
+        :RLH98 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1998";
+              :address "Chicago - USA" ;
+              :title "Generating SGML specific editors: from DTDs to Attribute Grammars"  .
+        
+        
+            :RLH98 :hasAuthor :arl .
+        
+            :RLH98 :hasAuthor :jcr .
+        
+            :RLH98 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RHb98
+        :RHb98 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1998";
+              :address "Paris - France" ;
+              :title "Beyond DTDs: Constraining Data Content"  .
+        
+        
+            :RHb98 :hasAuthor :jcr .
+        
+            :RHb98 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RHHRAF98
+        :RHHRAF98 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1998";
+              :address "Toronto, Canada" ;
+              :title "Adapting Museum Structures for the Web: No Changes Needed!"  .
+        
+        
+            :RHHRAF98 :hasAuthor :mrh .
+        
+            :RHHRAF98 :hasAuthor :jlf .
+        
+            :RHHRAF98 :hasAuthor :jgr .
+        
+            :RHHRAF98 :hasAuthor :prh .
+        
+            :RHHRAF98 :hasAuthor :jcr .
+        
+            :RHHRAF98 :hasAuthor :jj .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH97
+        :LRH97 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1997";
+              :address "Campinas-SP -- Brasil" ;
+              :title "INES, an Environment for Structured Editions of SGML Documents"  .
+        
+        
+            :LRH97 :hasAuthor :arl .
+        
+            :LRH97 :hasAuthor :jcr .
+        
+            :LRH97 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RAH96
+        :RAH96 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1996";
+              :address "Boston - USA" ;
+              :title "Document Semantics: two approaches"  .
+        
+        
+            :RAH96 :hasAuthor :jcr .
+        
+            :RAH96 :hasAuthor :jj .
+        
+            :RAH96 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#JLRH02
+        :JLRH02 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2002";
+              :address "Montevideo, Uruguai," ;
+              :title "XCSL: XML Constraint Specification Language"  .
+        
+        
+            :JLRH02 :hasAuthor :mhj .
+        
+            :JLRH02 :hasAuthor :grl .
+        
+            :JLRH02 :hasAuthor :jcr .
+        
+            :JLRH02 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#JLRHb02
+        :JLRHb02 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2002";
+              :address "Rio de Janeiro - Brasil" ;
+              :title "Bidirectional Conversion between XML Documents and Relational Data Bases"  .
+        
+        
+            :JLRHb02 :hasAuthor :mhj .
+        
+            :JLRHb02 :hasAuthor :grl .
+        
+            :JLRHb02 :hasAuthor :jcr .
+        
+            :JLRHb02 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#JHR00
+        :JHR00 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2000";
+              :address "Instituto de Lógica, Lenguaje e Información, Universidad de Sevilla, Espanha" ;
+              :title "XML and Semantic Validation"  .
+        
+        
+            :JHR00 :hasAuthor :mhj .
+        
+            :JHR00 :hasAuthor :prh .
+        
+            :JHR00 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#JLRHc02
+        :JLRHc02 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2002";
+              :address "Barcelona - Espanha" ;
+              :title "Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema"  .
+        
+        
+            :JLRHc02 :hasAuthor :mhj .
+        
+            :JLRHc02 :hasAuthor :grl .
+        
+            :JLRHc02 :hasAuthor :jcr .
+        
+            :JLRHc02 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RH94
+        :RH94 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1995";
+              :address "Universidade do Minho" ;
+              :title "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização"  .
+        
+        
+            :RH94 :hasAuthor :jcr .
+        
+            :RH94 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RAH95
+        :RAH95 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1995";
+              :address "Twente - Holanda" ;
+              :title "DAVID, Algebraic Specification of Documents"  .
+        
+        
+            :RAH95 :hasAuthor :jcr .
+        
+            :RAH95 :hasAuthor :jj .
+        
+            :RAH95 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram96
+        :Ram96 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1996";
+              :address "Universidade do Minho" ;
+              :title "DSSSL: basic topics"  .
+        
+        
+            :Ram96 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RRAH97
+        :RRAH97 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1997";
+              :address "Washinton - USA" ;
+              :title "SGML Documents: Where Does Quality Go?"  .
+        
+        
+            :RRAH97 :hasAuthor :jcr .
+        
+            :RRAH97 :hasAuthor :jgr .
+        
+            :RRAH97 :hasAuthor :jj .
+        
+            :RRAH97 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH03
+        :RLH03 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "2003";
+              :address "" ;
+              :title "Ontology driven websites with Topic Maps"  .
+        
+        
+            :RLH03 :hasAuthor :jcr .
+        
+            :RLH03 :hasAuthor :grl .
+        
+            :RLH03 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#JLRH03
+        :JLRH03 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "2003";
+              :address "" ;
+              :title "XCSL: XML Constraint Specification Language"  .
+        
+        
+            :JLRH03 :hasAuthor :mhj .
+        
+            :JLRH03 :hasAuthor :grl .
+        
+            :JLRH03 :hasAuthor :jcr .
+        
+            :JLRH03 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH03
+        :LRH03 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "Braga - Portugal" ;
+              :title "XML Topic Map Builder: Specification and Generation"  .
+        
+        
+            :LRH03 :hasAuthor :grl .
+        
+            :LRH03 :hasAuthor :jcr .
+        
+            :LRH03 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram03
+        :Ram03 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "Braga - Portugal" ;
+              :title "O XML nos curriculae das licenciaturas em informática"  .
+        
+        
+            :Ram03 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#SRFP95
+        :SRFP95 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "1995";
+              :address "" ;
+              :title "A Heterogeneous Computer Vision Architecture: Implementation Issues"  .
+        
+        
+            :SRFP95 :hasAuthor :hs .
+        
+            :SRFP95 :hasAuthor :jmf .
+        
+            :SRFP95 :hasAuthor :ajp .
+        
+            :SRFP95 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH03b
+        :LRH03b rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "La Paz, Bolívia" ;
+              :title "TM-Builder: Um Construtor de Ontologias baseado em Topic Maps"  .
+        
+        
+            :LRH03b :hasAuthor :grl .
+        
+            :LRH03b :hasAuthor :jcr .
+        
+            :LRH03b :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH03c
+        :LRH03c rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "ISEP, Porto, Portugal" ;
+              :title "Geração automática de interfaces Web para sistemas de informação: Metamorphosis"  .
+        
+        
+            :LRH03c :hasAuthor :grl .
+        
+            :LRH03c :hasAuthor :jcr .
+        
+            :LRH03c :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#SMR03
+        :SMR03 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "Vila Verde - Portugal" ;
+              :title "Xexam: uma linguagem de suporte para exames online (e-learning)"  .
+        
+        
+            :SMR03 :hasAuthor :des .
+        
+            :SMR03 :hasAuthor :mcm .
+        
+            :SMR03 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#JRH03
+        :JRH03 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "Vila Verde - Portugal" ;
+              :title "XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de
+			Especificação de Restrições"  .
+        
+        
+            :JRH03 :hasAuthor :mhj .
+        
+            :JRH03 :hasAuthor :jcr .
+        
+            :JRH03 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RHLA03
+        :RHLA03 rdf:type owl:NamedIndividual ,
+                                                :proceedings ;
+              :year "2003";
+              :address "Vila Verde - Portugal" ;
+              :title "XATA2003 - XML: Aplicações e Tecnologias Associadas"  .
+        
+        
+            :RHLA03 :hasEditor :gva .
+        
+            :RHLA03 :hasEditor :jcr .
+        
+            :RHLA03 :hasEditor :prh .
+        
+            :RHLA03 :hasEditor :grl .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram99b
+        :Ram99b rdf:type owl:NamedIndividual ,
+                                                :inbook ;
+              :year "1999";
+              :address "" ;
+              :title "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação"  .
+        
+        
+            :Ram99b :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram93
+        :Ram93 rdf:type owl:NamedIndividual ,
+                                                :masterthesis ;
+              :year "1993";
+              :address "" ;
+              :title "Um Compilador para o GLiTCH"  .
+        
+        
+            :Ram93 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#VECPAR93
+        :VECPAR93 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1993";
+              :address "" ;
+              :title "A Heterogeneous Computer Vision Architecture: Implementation Issues"  .
+        
+        
+            :VECPAR93 :hasAuthor :hs .
+        
+            :VECPAR93 :hasAuthor :jcr .
+        
+            :VECPAR93 :hasAuthor :jmf .
+        
+            :VECPAR93 :hasAuthor :ajp .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RH98b
+        :RH98b rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1998";
+              :address "Guimarães - Portugal" ;
+              :title "Qualidade na Publicação Electrónica: como controlá-la?"  .
+        
+        
+            :RH98b :hasAuthor :jcr .
+        
+            :RH98b :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RH98c
+        :RH98c rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1998";
+              :address "Porto - Portugal" ;
+              :title "Informatics and Archives: a present needed symbiosis"  .
+        
+        
+            :RH98c :hasAuthor :jcr .
+        
+            :RH98c :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RH98d
+        :RH98d rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "1998";
+              :address "Loures - Portugal " ;
+              :title "Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga"  .
+        
+        
+            :RH98d :hasAuthor :jcr .
+        
+            :RH98d :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram98
+        :Ram98 rdf:type owl:NamedIndividual ,
+                                                :misc ;
+              :year "1998";
+              :address "" ;
+              :title "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?"  .
+        
+        
+            :Ram98 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH03b
+        :RLH03b rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2003";
+              :address "Badajoz - Espanha" ;
+              :title "Adrian: a platform for E-Learning Content Prodution"  .
+        
+        
+            :RLH03b :hasAuthor :jcr .
+        
+            :RLH03b :hasAuthor :grl .
+        
+            :RLH03b :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LR04
+        :LR04 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+              :title "Web Services: Metodologias de Desenvolvimento"  .
+        
+        
+            :LR04 :hasAuthor :cajo .
+        
+            :LR04 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR04
+        :FR04 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+              :title "Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo"  .
+        
+        
+            :FR04 :hasAuthor :mf .
+        
+            :FR04 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH04
+        :LRH04 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+              :title "Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação"  .
+        
+        
+            :LRH04 :hasAuthor :grl .
+        
+            :LRH04 :hasAuthor :jcr .
+        
+            :LRH04 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RTFR04
+        :RTFR04 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+              :title "Gerador de Web Services para cadeias de transformações de documentos XML"  .
+        
+        
+            :RTFR04 :hasAuthor :pt .
+        
+            :RTFR04 :hasAuthor :vr .
+        
+            :RTFR04 :hasAuthor :jcr .
+        
+            :RTFR04 :hasAuthor :rf .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#MRH04
+        :MRH04 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+              :title "Comparação de Linguagens para descrição de Interfaces baseadas em XML"  .
+        
+        
+            :MRH04 :hasAuthor :ram .
+        
+            :MRH04 :hasAuthor :jcr .
+        
+            :MRH04 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RS04
+        :RS04 rdf:type owl:NamedIndividual ,
+                                                :proceedings ;
+              :year "2004";
+              :address "Faculdade de Engenharia do Porto - Portugal" ;
+              :title "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"  .
+        
+        
+            :RS04 :hasEditor :albie .
+        
+            :RS04 :hasEditor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR04b
+        :FR04b rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Department of Information and Documentation Science at the University of Brasilia, in Brazil" ;
+              :title "DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE"  .
+        
+        
+            :FR04b :hasAuthor :jcr .
+        
+            :FR04b :hasAuthor :mf .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH04
+        :RLH04 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Department of Information and Documentation Science at the University of Brasilia, in Brazil" ;
+              :title "Adrian - E-Learning Content Production (creating online exams)"  .
+        
+        
+            :RLH04 :hasAuthor :jcr .
+        
+            :RLH04 :hasAuthor :grl .
+        
+            :RLH04 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LSRH04
+        :LSRH04 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Porto - Portugal" ;
+              :title "Using the Ontology Paradigm to integrate Information Systems"  .
+        
+        
+            :LSRH04 :hasAuthor :ws .
+        
+            :LSRH04 :hasAuthor :grl .
+        
+            :LSRH04 :hasAuthor :jcr .
+        
+            :LSRH04 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#JLRH02b
+        :JLRH02b rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "2002";
+              :address "" ;
+              :title "XCSL tutorial"  .
+        
+        
+            :JLRH02b :hasAuthor :mhj .
+        
+            :JLRH02b :hasAuthor :grl .
+        
+            :JLRH02b :hasAuthor :jcr .
+        
+            :JLRH02b :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH04-Clei
+        :LRH04-Clei rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Sociedad Peruana de Computación, Peru" ;
+              :title "Extração de Topic Maps no Oveia: Especificação e Processamento"  .
+        
+        
+            :LRH04-Clei :hasEditor :clei04 .
+        
+            :LRH04-Clei :hasAuthor :grl .
+        
+            :LRH04-Clei :hasAuthor :jcr .
+        
+            :LRH04-Clei :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RHL04-eLes
+        :RHL04-eLes rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Universidade de Aveiro, Portugal" ;
+              :title "ADRIAN: Sistema de Suporte à Produção de Conteúdos"  .
+        
+        
+            :RHL04-eLes :hasAuthor :jcr .
+        
+            :RHL04-eLes :hasAuthor :prh .
+        
+            :RHL04-eLes :hasAuthor :grl .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FR04-capsi
+        :FR04-capsi rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Instituto Superior Técnico, Lisboa, Portugal" ;
+              :title "DigitArq: Creating a Historical Digital Archive"  .
+        
+        
+            :FR04-capsi :hasAuthor :mf .
+        
+            :FR04-capsi :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH04-XMLw
+        :LRH04-XMLw rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Washington, USA" ;
+              :title "XTche - A Language for Topic Maps Schema and Constraints"  .
+        
+        
+            :LRH04-XMLw :hasAuthor :grl .
+        
+            :LRH04-XMLw :hasAuthor :jcr .
+        
+            :LRH04-XMLw :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RSL05
+        :RSL05 rdf:type owl:NamedIndividual ,
+                                                :proceedings ;
+              :year "2005";
+              :address "Casa da Torre, Vila Verde - Portugal" ;
+              :title "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"  .
+        
+        
+            :RSL05 :hasEditor :jcl .
+        
+            :RSL05 :hasEditor :jcr .
+        
+            :RSL05 :hasEditor :albie .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#Ram05
+        :Ram05 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2005";
+              :address "Braga" ;
+              :title "Document Composer: uma aplicação XML para extracção de informação de repositórios XML"  .
+        
+        
+            :Ram05 :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH05
+        :LRH05 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2005";
+              :address "Braga" ;
+              :title "Obtendo Interoperabilidade Semântica em Sistemas Heterogéneos de Informação com Metamorphosis"  .
+        
+        
+            :LRH05 :hasAuthor :grl .
+        
+            :LRH05 :hasAuthor :jcr .
+        
+            :LRH05 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH05b
+        :LRH05b rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2005";
+              :address "Braga" ;
+              :title "Constraining XML Topic Maps with XTche"  .
+        
+        
+            :LRH05b :hasAuthor :grl .
+        
+            :LRH05b :hasAuthor :jcr .
+        
+            :LRH05b :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RL05
+        :RL05 rdf:type owl:NamedIndividual ,
+                                                :book ;
+              :year "2005";
+              :address "FCA - Editora de Informática" ;
+              :title "Web Services: Aplicações Distribuídas sobre Protocolos Internet"  .
+        
+        
+            :RL05 :hasAuthor :jcr .
+        
+            :RL05 :hasAuthor :cajo .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH04-WWS
+        :LRH04-WWS rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2004";
+              :address "Brasília, Brasil" ;
+              :title "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps"  .
+        
+        
+            :LRH04-WWS :hasAuthor :grl .
+        
+            :LRH04-WWS :hasAuthor :jcr .
+        
+            :LRH04-WWS :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH05
+        :RLH05 rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2005";
+              :address "Montréal - Canada" ;
+              :title "Constraining Topic Maps: A TMCL declarative implementation"  .
+        
+        
+            :RLH05 :hasAuthor :jcr .
+        
+            :RLH05 :hasAuthor :grl .
+        
+            :RLH05 :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH06
+        :RLH06 rdf:type owl:NamedIndividual ,
+                                                :inbook ;
+              :year "2006";
+              :address "" ;
+              :title "Lecture Notes in Computer Science"  .
+        
+        
+            :RLH06 :hasEditor :lutz .
+        
+            :RLH06 :hasEditor :park .
+        
+            :RLH06 :hasAuthor :jcr .
+        
+            :RLH06 :hasAuthor :grl .
+        
+            :RLH06 :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH05b
+        :RLH05b rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2005";
+              :address "Leipzig - Germany" ;
+              :title "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources"  .
+        
+        
+            :RLH05b :hasAuthor :jcr .
+        
+            :RLH05b :hasAuthor :grl .
+        
+            :RLH05b :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FBR05-CAPSI
+        :FBR05-CAPSI rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2005";
+              :address "Bragança - Portugal" ;
+              :title "Avaliação Automática de Migração em Redes Distribuídas de
+Conversores"  .
+        
+        
+            :FBR05-CAPSI :hasAuthor :aab .
+        
+            :FBR05-CAPSI :hasAuthor :mf .
+        
+            :FBR05-CAPSI :hasAuthor :jcr .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RLH05-revAPSI17
+        :RLH05-revAPSI17 rdf:type owl:NamedIndividual ,
+                                                :article ;
+              :year "2005";
+              :address "" ;
+              :title "Geração automática de interfaces Web para Sistemas de Informação:
+Metamorphosis"  .
+        
+        
+            :RLH05-revAPSI17 :hasAuthor :jcr .
+        
+            :RLH05-revAPSI17 :hasAuthor :grl .
+        
+            :RLH05-revAPSI17 :hasAuthor :prh .
+        
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH05-CLEI
+        :LRH05-CLEI rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2005";
+              :address "Santiago de Cali - Colombia" ;
+              :title "Ulisses: Um Navegador Conceptual para Topic Maps"  .
+        
+        
+            :LRH05-CLEI :hasAuthor :grl .
+        
+            :LRH05-CLEI :hasAuthor :jcr .
+        
+            :LRH05-CLEI :hasAuthor :prh .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#FBR06-XATA
+        :FBR06-XATA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2006";
+              :address "Portalegre - Portugal" ;
+              :title "CRIB : a service oriented architecture for digital preservation outsourcing"  .
+        
+        
+            :FBR06-XATA :hasAuthor :mf .
+        
+            :FBR06-XATA :hasAuthor :aab .
+        
+            :FBR06-XATA :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#RD06-XATA
+        :RD06-XATA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2006";
+              :address "Portalegre - Portugal" ;
+              :title "Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web"  .
+        
+        
+            :RD06-XATA :hasAuthor :migaldo .
+        
+            :RD06-XATA :hasAuthor :jcr .
+        
+	
+	
+        ###  http://prc.di.uminho.pt/2019/pubs#LRH06-XATA
+        :LRH06-XATA rdf:type owl:NamedIndividual ,
+                                                :inproceedings ;
+              :year "2006";
+              :address "Portalegre - Portugal" ;
+              :title "Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração"  .
+        
+        
+            :LRH06-XATA :hasAuthor :grl .
+        
+            :LRH06-XATA :hasAuthor :jcr .
+        
+            :LRH06-XATA :hasAuthor :prh .
+        
+
+
+
+        :rq rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Ricardo Queirós" .
+    
+        :cb rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Christoph Becker" .
+    
+        :kd rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Kresimir Duretec " .
+    
+        :pp rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Petar Petrov" .
+    
+        :mjc rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Maria Jesus Colmenero Ruiz" .
+    
+        :mam rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Miguel Ángel Marzal Garcia-Quismondo" .
+    
+        :rf rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Ricardo Freitas" .
+    
+        :mk rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Michael Kraxner" .
+    
+        :ar rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Andreas Rauber" .
+    
+        :sa rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Salvador Abreu" .
+    
+        :mm rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Mirkos Martins" .
+    
+        :hm rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Henrique Machado" .
+    
+        :jv rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Juliana Vizzotto" .
+    
+        :lmf rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Luis Miguel Ferros" .
+    
+        :jg rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Jonas Gassen" .
+    
+        :rct rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Rogério Correa Turchetti" .
+    
+        :htm rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "H. T. Machado" .
+    
+        :mom rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "M. O. Martins" .
+    
+        :pgf rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "P. G. D. Ferreira" .
+    
+        :rpa rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Renato Preigschadt de Azevedo" .
+    
+        :rc rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Rui Castro" .
+    
+        :lf rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Luis Faria" .
+    
+        :fb rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Francisco Barbedo" .
+    
+        :lcor rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Luis Corujo" .
+    
+        :lc rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Luis Carriço" .
+    
+        :mjpl rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Maria João Pires Lima" .
+    
+        :as rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "António Sousa" .
+    
+        :jcr rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "José Carlos Ramalho" .
+    
+        :prh rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Pedro Rangel Henriques" .
+    
+        :jj rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "José João Almeida" .
+    
+        :jls rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "José Luis Santos" .
+    
+        :grl rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Giovani Rubert Librelotto" .
+    
+        :jgr rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "J. G. Rocha" .
+    
+        :arl rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "A. R. Lopes" .
+    
+        :mrh rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "M. R. Henriques" .
+    
+        :jlf rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "J. L. Faria" .
+    
+        :mhj rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "M. H.  Jacinto" .
+    
+        :hs rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "H. Santos" .
+    
+        :jmf rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "J. M. Fernandes" .
+    
+        :ajp rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "A. J. Proença" .
+    
+        :des rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Daniel Edgar Pinto Soares" .
+    
+        :mcm rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Maria da Conceição Vieira Mota" .
+    
+        :gva rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Gustavo V. Arnold" .
+    
+        :cajo rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Carlos J. Feijó Lopes" .
+    
+        :mf rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Miguel Ferreira" .
+    
+        :pt rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Pedro Taveira" .
+    
+        :vr rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Vasco Rocha" .
+    
+        :ram rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Ricardo Martins" .
+    
+        :albie rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Alberto Simões" .
+    
+        :ws rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Weber Souza" .
+    
+        :clei04 rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas" .
+    
+        :jcl rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "João Correia Lopes" .
+    
+        :lutz rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Lutz Maicher" .
+    
+        :park rdf:type owl:NamedIndividual ,
+        :Editor ;
+        :name "Jack Park" .
+    
+        :aab rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Ana Alice Baptista" .
+    
+        :migaldo rdf:type owl:NamedIndividual ,
+                                      :Author ;
+        :name "Luis Miguel Alves Domingues" .
+    

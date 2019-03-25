@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    br
+    h3 All Available Repositories:
+    br
+
+    .list-group
+        each repository in repositories
+            a.list-group-item.list-group-item-action(href="http://localhost:5000/repository/" + repository.id)
+                .d-flex.w-100.justify-content-between
+                    h5.mb-1= repository.id
+                p.mb-1
+                    if repository.title
+                        i= repository.title
+                    else 
+                        small Title not available.
+                    

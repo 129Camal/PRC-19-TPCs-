@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix h: <http://www.di.uminho.pt/~jcr/prc2019#>  .
+
+h:bibliography a rdfs:Class .
+
+h:inbook a rdfs:Class;
+    rdfs:subClassOf h:bibliography .
+    
+h:inproceedings a rdfs:Class;
+    rdfs:subClassOf h:bibliography . 
+
+h:article a rdfs:Class;
+    rdfs:subClassOf h:bibliography . 
+
+h:misc a rdfs:Class;
+    rdfs:subClassOf h:bibliography . 
+
+h:book a rdfs:Class;
+    rdfs:subClassOf h:bibliography . 
+
+h:proceedings a rdfs:Class;
+    rdfs:subClassOf h:bibliography . 
+
+h:phdthesis a rdfs:Class;
+    rdfs:subClassOf h:bibliography .
+
+h:masterthesis a rdfs:Class;
+    rdfs:subClassOf h:bibliography . 
+
+h:editor a rdfs:Class;
+    rdfs:subClassOf h:inbook, h:proceedings .
+
+h:author a rdfs:Class;
+    rdfs:subClassOf h:inproceedings .
+
+h:deliverables a rdfs:Class;
+    rdfs:subClassOf h:phdthesis, h:inproceedings, h:book .
+
+h:pdf a rdfs:Class;
+    rdfs:subClassOf h:deliverables .
+
+h:ppt a rdfs:Class;
+    rdfs:subClassOf h:deliverables .
+
+h:doc a rdfs:Class;
+    rdfs:subClassOf h:deliverables .
+
+h:xhtml a rdfs:Class;
+    rdfs:subClassOf h:deliverables .
+
+h:id
+    a rdf:Property ;
+    rdfs:domain h:inbook, h:inproceedings, h:proceedings, h:article, h:misc, h:book, h:phdthesis, h:masterthesis, h:editor, h:author ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:title
+    a rdf:Property ;
+    rdfs:domain h:inbook, h:inproceedings, h:proceedings, h:article, h:misc, h:book, h:phdthesis, h:masterthesis ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:chapter
+    a rdf:Property ;
+    rdfs:domain h:inbook ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:pages
+    a rdf:Property ;
+    rdfs:domain h:inbook ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:publisher
+    a rdf:Property ;
+    rdfs:domain h:inbook, h:article, h:book ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:year
+    a rdf:Property ;
+    rdfs:domain h:inbook, h:inproceedings, h:proceedings, h:article, h:misc, h:book, h:phdthesis, h:masterthesis ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+
+h:month
+    a rdf:Property ;
+    rdfs:domain h:inbook, h:inproceedings, h:proceedings, h:article, h:book, h:phdthesis, h:masterthesis ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+
+h:doi
+    a rdf:Property ;
+    rdfs:domain h:inbook, h:inproceedings, h:proceedings, h:article, h:misc, h:phdthesis;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:booktitle
+    a rdf:Property ;
+    rdfs:domain h:inproceedings;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:address
+    a rdf:Property ;
+    rdfs:domain h:inproceedings, h:proceedings, h:book, h:phdthesis;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:isbn
+    a rdf:Property ;
+    rdfs:domain h:proceedings, h:book;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:issn
+    a rdf:Property ;
+    rdfs:domain h:article;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:howpublished
+    a rdf:Property ;
+    rdfs:domain h:misc;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:school
+    a rdf:Property ;
+    rdfs:domain h:phdthesis, h:masterthesis;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:url
+    a rdf:Property ;
+    rdfs:domain h:pdf, h:ppt, h:doc, h:xhtml;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:description
+    a rdf:Property ;
+    rdfs:domain h:ppt;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:name
+    a rdf:Property ;
+    rdfs:domain h:editor, h:author;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+    
+h:editor_ref a rdf:Property;
+    rdfs:domain h:inbook, h:proceedings .
+
+h:author_ref a rdfs:Property;
+    rdfs:domain h:inbook, h:inproceedings, h:article, h:misc, h:book, h:phdthesis, h:masterthesis .
+
+h:tem
+    a rdf:Property ;
+    rdfs:domain h:bibliography ;
+    rdfs:range h:inbook, h:inproceedings, h:proceedings, h:article, h:misc, h:book, h:phdthesis, h:masterthesis .
+
+<http://www.w3.org/2001/XMLSchema#integer>
+    a rdfs:Datatype .
+ 
+<http://www.w3.org/2001/XMLSchema#string>
+    a rdfs:Datatype .
+
+# -------------------------------------------------------------------
+
+h:bib a h:bibliography;
+    h:inbook h:inbook1 .
+
+h:inbook1 a h:inbook;
+    h:author_ref "rf", "jcr";
+    h:editor_ref "jcr", "albie";
+    h:title "Innovations in XML Applications and Metadata Management: Advancing Technologies";
+    h:chapter "New Dimension in Relational Database Preservation: Using Ontologies";
+    h:pages "160-173";
+    h:publisher "IGI Global";
+    h:year "2013";
+    h:month "06";
+    h:doi "10.4018/978-1-4666-2669-0.ch009".
